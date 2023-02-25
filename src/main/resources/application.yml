@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+  jackson:
+    default-property-inclusion: non_null
+
+server:
+  port: 5000

@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  api:
+    image: lobato/peoplemanagerapi:latest
+    container_name: peoplemanagerapi
+    ports:
+      - '8080:8080'
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
