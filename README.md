@@ -26,7 +26,7 @@ Se preferir executar a aplicação em seu próprio computador, há duas maneiras
 2. Utilizando Docker e Docker Compose.
  
 ### Clonando o repositório
-1. Clone este repositório utilizando o comando: ```git clone <url>```
+1. Clone este repositório utilizando o comando: ```git clone https://github.com/T-Lobato/peoplemanagerapi.git```
 2. Abra o projeto em sua IDE de preferência e execute o arquivo: **PeopleManagerApiApplication.java**
 3. Para consultar os endpoints disponíveis na API acesse no seu navegador o endereço: ``` http://localhost:5000/swagger-ui/index.html#/ ```
 
