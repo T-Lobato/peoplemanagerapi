@@ -1,5 +1,6 @@
 package com.github.tlobato.PeopleManagerAPI.dto.request;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,7 +14,10 @@ import lombok.Setter;
 @NoArgsConstructor
 public class AddressRequestDto {
 
+    @JsonIgnore
     private String logradouro;
+
+    @JsonIgnore
     private String localidade;
 
     @NotBlank(message = "cep is a required field!")
@@ -22,6 +26,8 @@ public class AddressRequestDto {
     @NotBlank(message = "houseNumber is a required field!")
     private String houseNumber;
 
+    @JsonIgnore
     private Long personId;
+
     private boolean mainAddress;
 }
