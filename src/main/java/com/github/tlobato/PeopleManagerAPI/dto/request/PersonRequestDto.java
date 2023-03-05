@@ -1,5 +1,6 @@
 package com.github.tlobato.PeopleManagerAPI.dto.request;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.time.LocalDate;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Past;
@@ -15,6 +16,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class PersonRequestDto {
 
+    @JsonIgnore
     private Long id;
 
     @NotBlank(message = "name is a required field!")
