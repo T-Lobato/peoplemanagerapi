@@ -12,12 +12,13 @@
 - Maven
 - Git
 - Docker & Docker Compose
-- Deploy AWS [OFF]
+- Deploy AWS [ Online <svg width="10" height="10" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5" fill="#2ecc71"/></svg> ]
 
-## Deploy [OFF]
+
+## Deploy
 
 O deploy da API foi feito na plataforma de computação em nuvem AWS. O serviço utilizado foi o Elastic Beanstalk, que permite realizar a implantação de aplicações WEB de forma simplificada.
-[Clique aqui](http://peoplemanagerapi-env.eba-zjrxexgq.us-east-1.elasticbeanstalk.com/swagger-ui/index.html#/) para acessar a API.
+[Clique aqui](http://peoplemanagerapi-env.eba-vqsetdim.us-east-1.elasticbeanstalk.com/swagger-ui/index.html#/) para acessar a API.
 
 ## Como executar a API localmente:
 
