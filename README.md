@@ -15,7 +15,8 @@
 - Deploy AWS
 
 
-## Deploy ![Status](https://img.shields.io/badge/Status-On-brightgreen)
+## Deploy ![Status](https://img.shields.io/badge/Status-Off-red)
+)
 
 O deploy da API foi feito na plataforma de computação em nuvem AWS. O serviço utilizado foi o Elastic Beanstalk, que permite realizar a implantação de aplicações WEB de forma simplificada.
 <a href="http://peoplemanagerapi-env.eba-vqsetdim.us-east-1.elasticbeanstalk.com/swagger-ui/index.html#/" target="_blank">Clique aqui</a>  para acessar a API.
